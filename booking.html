@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ExploreMore — Booking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1 class="brand">ExploreMore Travels</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="packages.html">Packages</a>
+        <a href="booking.html">Booking</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h2 class="page-title">Book Your Adventure</h2>
+        <p class="lead">
+          Ready to explore? Fill out our booking form and secure your trip today. Our team will
+          get in touch to confirm details, share itineraries, and ensure everything is perfect
+          before your journey begins.
+        </p>
+
+        <form>
+          <div>
+            <label>Name</label>
+            <input type="text" placeholder="Full Name" required>
+          </div>
+          <div>
+            <label>Email</label>
+            <input type="email" placeholder="you@example.com" required>
+          </div>
+          <div>
+            <label>Destination</label>
+            <select required>
+              <option value="">Select destination…</option>
+              <option>Paris</option>
+              <option>Maldives</option>
+              <option>Bali</option>
+            </select>
+          </div>
+          <div>
+            <label>Package Type</label>
+            <select required>
+              <option value="">Select package…</option>
+              <option>Standard</option>
+              <option>Luxury</option>
+              <option>Family</option>
+            </select>
+          </div>
+          <div>
+            <label>Start Date</label>
+            <input type="date" required>
+          </div>
+          <div>
+            <label>End Date</label>
+            <input type="date" required>
+          </div>
+          <div class="actions">
+            <button type="submit">Book Now</button>
+            <button type="reset">Reset</button>
+          </div>
+          <textarea placeholder="Any preferences or notes…"></textarea>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2025 ExploreMore Travels</footer>
+</body>
+</html>
